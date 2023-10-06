@@ -1,9 +1,12 @@
 
 fun main() {
-    val age: Int = 19
-    val favoriteNumber: Int = 7
+    val x: Int = 3
+    val y: Int = 4
+    val z: Int = 5
 
-    println("My favorite number is: $favoriteNumber and i'm $age years old")
+    println("x: $x")
+    println("x + y: ${x + y}")
+    println("x + y + z: ${x + y + z}")
 }
 
 
