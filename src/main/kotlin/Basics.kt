@@ -1,12 +1,10 @@
 
 fun main() {
-    val x: Int = 3
-    val y: Int = 4
-    val z: Int = 5
+    val radius = 5.5
+    val pi = 3.14159265
+    val result = 1.333 * pi * radius * radius * radius
 
-    println("x: $x")
-    println("x + y: ${x + y}")
-    println("x + y + z: ${x + y + z}")
+    println("The volume of the sphere with the radius $radius is $result")
 }
 
 
